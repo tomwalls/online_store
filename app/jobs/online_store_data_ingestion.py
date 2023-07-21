@@ -11,8 +11,8 @@ from ops.extract_load import (
 
 my_dbt_resource = dbt_cli_resource.configured(
     {
-        "project_dir": "./transform",
-        "profiles_dir": "./transform",
+        "project_dir": "/opt/dagster/app/transform",
+        "profiles_dir": "/opt/dagster/app/transform",
     }
 )
 
